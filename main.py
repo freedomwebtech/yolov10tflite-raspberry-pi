@@ -4,12 +4,12 @@ import pandas as pd
 import cvzone
 
 
-model = YOLO('yolov10n_float32.tflite')  
+model = YOLO('')  
 
 
 
-cap=cv2.VideoCapture('p1.mp4')
-my_file = open("coco.txt", "r")
+cap=cv2.VideoCapture('')
+my_file = open("coco1.txt", "r")
 data = my_file.read()
 class_list = data.split("\n")
 
