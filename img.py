@@ -3,7 +3,7 @@ import time
 cpt = 0
 maxFrames = 40 # if you want 5 frames only.
 
-cap=cv2.VideoCapture('p1.mp4')
+cap=cv2.VideoCapture('')
 count=0
 while cpt < maxFrames:
     ret, frame = cap.read()
