@@ -2,7 +2,6 @@ import cv2
 from ultralytics import YOLO
 import pandas as pd
 import cvzone
-import numpy as np
 from tracker import Tracker
 
 model = YOLO('best_float32.tflite')  
