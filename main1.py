@@ -4,7 +4,6 @@ import pandas as pd
 import cvzone
 import numpy as np
 from tracker import Tracker
-from vidgear.gears import CamGear
 
 model = YOLO('best_float32.tflite')  
 
