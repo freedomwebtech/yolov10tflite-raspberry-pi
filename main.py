@@ -2,7 +2,6 @@ import cv2
 from ultralytics import YOLO
 import pandas as pd
 import cvzone
-from vidgear.gears import CamGear
 
 model = YOLO('best_float32.tflite')  
 
